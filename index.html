@@ -243,7 +243,7 @@
       gameRunning=true;
 
       // ✅ START BGM on user gesture (click Start)
-      bgm.volume = 0.45;
+      bgm.volume = 0.15;
       const ok = await safePlay(bgm, "BGM");
       setAudioStatus(ok ? "🔊 Sound ON" : "🔇 Sound blocked (browser policy)");
 
